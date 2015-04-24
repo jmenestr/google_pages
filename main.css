@@ -1,0 +1,104 @@
+body {
+	margin:0;
+	position:relative;
+	min-height:100%;
+
+}
+html {
+	height:100%;
+}
+
+#mainNav {
+	height: 50px;
+	padding:0 15px;
+	margin:0;
+
+}
+
+#mainNav ul {
+	height:50px;
+	list-style: none;
+	float:right;
+	padding:0;
+	margin:0;
+
+}
+
+#mainNav ul li {
+	display:inline-block;
+	height:50px;
+	line-height: 50px;
+	margin:0 3px;
+
+}
+
+#mainNav ul li a{
+	text-decoration: none;
+	color:black;
+}
+
+#mainNav ul li a:hover{
+	text-decoration: underline;
+
+}
+
+/* Main section */
+
+#searchForm {
+	margin:100px auto;
+	text-align: center;
+}
+#searchForm img {
+	width:25%;
+	margin-bottom:25px;
+}
+
+#searchForm input[type="text"] {
+	width: 450px;
+}
+#searchForm #buttons {
+	margin-top:20px;
+}
+#searchForm #buttons button {
+	margin-right:10px;
+	margin-left:10px;
+	padding:5px;
+	font-size:15px;
+}
+
+/*Footer Styles */
+
+#mainFooter {
+	height: 50px;
+	width:100%;
+	background: #eee;
+	position:absolute;
+	bottom:0px;
+	margin:0;
+
+}
+
+#mainFooter ul {
+	height:50px;
+	list-style: none;
+	float:right;
+	padding:0;
+	margin:0;
+
+}
+
+#mainFooter ul li {
+	display:inline-block;
+	height:50px;
+	line-height: 50px;
+	margin:0 3px;
+
+}
+nav#footLeft {
+	padding-left:10px;
+	float:left;
+}
+nav#footRight {
+	padding-right: 10px;
+}
+
